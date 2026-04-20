@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JM Digital | Professional Web Development</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-animation"></div>
+
+  <header>
+    <div class="header-content">
+      <div class="logo-container">
+        <div class="jm-logo">
+          <div class="jm-box">JM</div>
+          <span class="jm-word">DIGITAL</span>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#servicios">Services</a></li>
+          <li><a href="#portafolio">Portfolio</a></li>
+          <li><a href="#contacto">Contact</a></li>
+        </ul>
+        <div class="lang-switcher">
+          <button class="lang-btn active" id="btn-en">EN</button>
+          <span class="lang-divider">|</span>
+          <button class="lang-btn" id="btn-es">ES</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h1>Professional Web Development<br>for Your Business</h1>
+      <p class="hero-subtitle">Modern, responsive, and conversion-focused websites. Let's bring your idea to life.</p>
+      <a href="#contacto" class="cta-button">
+        <i class="fas fa-rocket"></i>
+        <span>Start your project →</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2 class="section-title">Web Developer</h2>
+    <div class="about-content">
+      <div class="about-image">
+        <div class="profile-placeholder">
+          <i class="fas fa-laptop-code"></i>
+        </div>
+      </div>
+      <div class="about-text">
+        <p>I'm <strong>Johanna Mora</strong>, a web developer specialized in creating digital experiences that drive growth for startups and small businesses.</p>
+        <p>I transform business visions into professional websites that not only look amazing, but also generate real results for my clients.</p>
+        <p>My approach combines modern design, cutting-edge technology, and digital strategy to ensure every project exceeds expectations.</p>
+        <p><strong>⚡ Remote service・Flexible schedule・Fast turnaround</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicios">
+    <h2 class="section-title">Web Development Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+        <h3>Custom Websites</h3>
+        <p>Fully responsive, modern websites tailored to your brand. From landing pages to multi-page sites.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-store"></i></div>
+        <h3>E‑commerce</h3>
+        <p>Online stores with secure payments, product management, and SEO optimized for sales.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-tachometer-alt"></i></div>
+        <h3>Performance & SEO</h3>
+        <p>Fast loading, search engine friendly, and optimized for conversions.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+        <h3>Mobile‑First Design</h3>
+        <p>Perfect experience on any device – because most of your traffic comes from mobile.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portafolio">
+    <h2 class="section-title">Recent Projects</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <img src="https://placehold.co/600x400/1a1a24/F5820A?text=E-commerce+Demo" alt="E-commerce project" class="portfolio-img">
+          <div class="portfolio-overlay"><i class="fas fa-shopping-bag"></i></div>
+        </div>
+        <div class="portfolio-content">
+          <h3>Boutique Fashion</h3>
+          <p>Modern online store for a women's fashion brand with integrated payments.</p>
+          <div class="portfolio-tags"><span class="tag">E‑commerce</span><span class="tag">Responsive</span></div>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <img src="https://placehold.co/600x400/1a1a24/F5820A?text=Booking+System" alt="Booking system" class="portfolio-img">
+          <div class="portfolio-overlay"><i class="fas fa-spa"></i></div>
+        </div>
+        <div class="portfolio-content">
+          <h3>Spa Bellezza</h3>
+          <p>Online booking system with calendar and automatic notifications.</p>
+          <div class="portfolio-tags"><span class="tag">Bookings</span><span class="tag">Dashboard</span></div>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <img src="https://placehold.co/600x400/1a1a24/F5820A?text=Landing+Page" alt="Landing page" class="portfolio-img">
+          <div class="portfolio-overlay"><i class="fas fa-user-tie"></i></div>
+        </div>
+        <div class="portfolio-content">
+          <h3>Personal Brand</h3>
+          <p>Impactful landing page for a business coach with contact forms.</p>
+          <div class="portfolio-tags"><span class="tag">Landing Page</span><span class="tag">Conversion</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2 class="section-title">Let's Work Together</h2>
+    <div class="contact-content">
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+          <div><h4>Email</h4><p>jmdigital458@gmail.com</p></div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+          <div><h4>WhatsApp</h4><p>+57 320 439 7152</p></div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fas fa-clock"></i></div>
+          <div><h4>Response time</h4><p>Within 24 hours</p></div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fas fa-globe"></i></div>
+          <div><h4>Remote service</h4><p>Anywhere in the world</p></div>
+        </div>
+      </div>
+      <div class="contact-form">
+        <h3>Send a message</h3>
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="nombre">Full name *</label>
+            <input type="text" id="nombre" name="nombre" required>
+          </div>
+          <div class="form-group">
+            <label for="contacto">Email or Phone *</label>
+            <input type="text" id="contacto" name="contacto" required>
+          </div>
+          <div class="form-group">
+            <label for="proyecto">Project type (optional)</label>
+            <select id="proyecto" name="proyecto">
+              <option value="">-- Select an option --</option>
+              <option value="Landing Page">Landing Page</option>
+              <option value="E-commerce">E-commerce / Online Store</option>
+              <option value="Corporate Website">Corporate Website</option>
+              <option value="Personal Portfolio">Personal Portfolio</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <button type="submit" class="submit-btn">
+            <i class="fab fa-whatsapp"></i> Send via WhatsApp
+          </button>
+        </form>
+        <p class="form-note">You'll open WhatsApp – no spam, just a direct message to me.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 JM Digital – Professional Web Development</p>
+    <p class="footer-small">Creating exceptional digital experiences</p>
+  </footer>
+
+  <a href="https://wa.me/573204397152" target="_blank" class="whatsapp-btn" title="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
